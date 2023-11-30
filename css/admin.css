@@ -1,0 +1,144 @@
+/* 
+    Author: Hamza Ben Atmane;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+.clearfix { /* for disparate two section when we use float:left */
+    float: none;
+    clear: both;
+}
+.tbl-full {
+    width: 100%;
+}
+.tbl-30 {
+    width: 40%;
+}
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td {
+    padding: 1%;
+}
+.btn-primary {
+    background-color: #1e90ff;
+    padding: 1%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #3742fa;
+}
+.btn-secondary {
+    background-color: #51ff93;
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.btn-secondary:hover {
+    background-color: #00f65e;
+}
+.btn-danger {
+    background-color: #ff5f97;
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-danger:hover {
+    background-color: #ff0059;
+}
+
+/* Start Css For Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    text-align: none;
+}
+.menu ul li{
+    display: inline; /* we used with list <ul> and <li> */
+    padding: 1%;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff4757;
+}
+.menu ul li a:hover {
+    color: #ff4757;
+}
+
+/* End Css For Menu */
+/* =================================================================== */
+/* Start Css For Main-Content */
+.main-content {
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.col-4 {
+    width: 18%; /* prefer to be inline */
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.success {
+    color: rgba(0, 180, 3, 0.911);
+}
+.err {
+    color: rgba(186, 0, 0, 0.945);
+}
+.images {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+/* End Css For Main-Content */
+/* =================================================================== */
+/* Css For Footer */
+.footer {
+    background-color: #ff4757;
+    color: white;
+}
+
+/* End Css For Footer */
+/* =================================================================== */
+/* Css For Login */
+.bodyLogin {
+    background-color: black;
+}
+.login {
+    width: 20%;
+    margin: 10% auto;
+    padding: 10px;
+}
+.login form {
+    padding-bottom: 10px;
+}
+
+/* End Css For Login */
+
+/* =================================================================== */
+
